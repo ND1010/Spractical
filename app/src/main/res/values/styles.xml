@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+    <style name="TextViewStyleBlueBold26sp" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_dim_26sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyHintStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dim_16dp</item>
+    </style>
+
+    <style name="MyEditTextBlack" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/dim_18dp</item>
+        <item name="android:paddingTop">@dimen/dim_8dp</item>
+        <item name="android:paddingBottom">@dimen/dim_16dp</item>
+    </style>
+
+    <dimen name="dim_18dp">18sp</dimen>
+    <dimen name="dim_8dp">8dp</dimen>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
