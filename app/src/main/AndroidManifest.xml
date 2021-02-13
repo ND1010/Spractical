@@ -15,20 +15,13 @@
         android:theme="@style/AppTheme"
         android:name=".App"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".ui.ui.user.UserActivity"
-            android:label="@string/title_activity_user"
-            android:theme="@style/AppTheme.NoActionBar" >
 
-        </activity>
-
-        <activity android:name=".ui.SignUpActivity" />
-        <activity android:name=".ui.LoginActivity">
+        <!--<activity android:name=".ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
     </application>
 
 </manifest>
